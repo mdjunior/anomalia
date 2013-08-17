@@ -1,0 +1,100 @@
+	
+/* NfSen-like style for easy tabs */
+#tab-container {
+	font-family: Verdana, sans-serif; 
+	font-size: 9pt; 
+	width: 95%;
+}
+#tab-container table {
+	font-family: Verdana, sans-serif;
+	font-size: 9pt;
+} 
+#tab-container ul.menu { 
+	margin: 1px 0px 0px 0px; 
+	padding: 20px 0px 0px 10px; 
+	background-repeat: repeat-x; 
+	background: #cedfde url(../../../icons/shade.png) top left repeat-x;
+}
+#tab-container ul.menu li {
+	display: inline-block; 
+	margin: 0; 
+	border: solid 1px #778; 
+	border-bottom: none; 
+}
+#tab-container ul.menu li a { 
+	display: block; 
+	padding: 3px 5px; 
+	outline: none; 
+	background: #cedfde url(../../../icons/shade.png) top left repeat-x; 
+	text-decoration: none; 
+	font-weight: bold; 
+	color: #2d2b2b; 
+	font-size: 12px; 
+}
+#tab-container ul.menu li.active { 
+	position: relative; 
+	top: 1px; 
+}
+#tab-container ul.menu li a.active { 
+	background: white url(../../../icons/shadeactive.png) top left repeat-x; 
+	font-weight: bold; 
+}
+#tab-container .panel-container { 
+	border-top: solid 1px gray; 
+	border: 1px solid silver; 
+	padding: 0; 
+}
+	
+	
+
+/* CSS style for timewindow selection panel */
+.time_select_panel {
+        border-bottom: 1px solid #666666;
+        border-top: 1px solid #666666;
+        padding: 5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: #cedfda;
+}
+.time_select_panel table tr td {
+        font-weight: bold;
+        font-size: 12px;
+        padding: 3px 0px 1px 5px;
+}
+#ui-datepicker-div { display: none; }
+
+.timewindow-info {
+        padding: 8px;
+        margin-left: 30px;
+        margin-right: 30px;
+}       
+  
+.timewindow-info span { 
+        float: left;
+        margin-right: 0.3em;
+}     
+	
+
+.highchart_graph {
+	height: 300px;
+	margin: 30px;
+}
+	
+.flot_graph {
+	height: 300px;
+	margin: 30px;
+}
+	
+.data_table {
+        margin: 30px;                                                                               
+        border-top: 1px solid black;                                                                
+}
+        
+.data_table tr td { 
+
+padding: 3px 10px 3px 10px;                                                                         
+margin: 0px; 
+border-bottom: 1px solid gray;                                                                      
+
+}
+
