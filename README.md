@@ -3,6 +3,8 @@ anomalia
 
 anomalia is a plugin for nfsen that detects anomalies in TCP/UDP connections based on the flow analysis.
 
+anomalia é um plugin para NFSen que detecta anomalias de conexões TCP/UDP com base em análise de flows.
+
 Como instalar
 
 Verifique se os pacotes perl-DBI e perl-DBD-SQLite estao instalados.
@@ -23,7 +25,6 @@ Devera ficar assim:
 
 @plugins = (
     [ 'live',  'PortTracker' ], 
-    [ 'live',  'SURFmap' ],
     [ 'live',  'anomalia' ],
 );
 
@@ -33,4 +34,4 @@ anomalia => {    db_file         => "$BACKEND_PLUGINDIR/anomalia/anomalia.db"},
 
 Agora copie os arquivos dentro da pasta frontend no seu diretorio de plugins web, provavelmente /var/www/htdocs/nfsen/plugins/.
 
-Reinicie o nfsen e va na aba plugins.
+Reinicie o nfsen e vá na aba plugins.
